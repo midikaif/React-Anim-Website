@@ -3,6 +3,7 @@ import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
+import Featured from './components/Featured'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Marquee/>      
       <About/>
       <Eyes/>
+      <Featured/>
     </div>
   )
 }
