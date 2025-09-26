@@ -15,7 +15,9 @@ function Featured() {
           <div className="relative">
             <div className="h-[80vh] rounded-xl overflow-hidden bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-663x551.png)]"></div>
             <div className="text-7xl absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-full leading-none tracking-tighter text-[#cdea68] z-[100]">
-              FYDE
+              {"FYDE".split("").map((item,i) => {
+               return <span key={i}>{item}</span>;
+              })}
             </div>
           </div>
           <div className="pt-4">
@@ -32,7 +34,9 @@ function Featured() {
           <div className="relative">
             <div className="h-[80vh] rounded-xl overflow-hidden bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2025/08/Med_Website_0.png)]"></div>
             <div className="text-7xl absolute top-1/2 -translate-y-1/2 right-full leading-none tracking-tighter text-[#cdea68] z-[100]">
-              VISE
+              {"VISE".split("").map((item) => {
+                return <span>{item}</span>;
+              })}
             </div>
           </div>
         </div>

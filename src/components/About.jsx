@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="bg-[#cdea68] w-full rounded-tl-3xl rounded-tr-3xl ">
+    <div data-scroll data-scroll-speed='-.09' className="bg-[#cdea68] w-full rounded-tl-3xl rounded-tr-3xl ">
       <div className="text-[5vw] px-10 py-20 leading-none tracking-tighter">
         We craft category-defining presentations, brand identities, and digital
         experiences that drive funding, sales, and market leadership.
